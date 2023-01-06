@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Le jeu du Quiz</h1>
+    <div id="contenue1">
+        <button id="commencer">Commencer</button>
+        <div id="mape">
+            <p class="bloc1">Question n°1: Le pingouin est-il un oiseau?</p>
+            <div class="bloc1">
+                <label for="choixA1">Non</label>
+                <button id="choixA1"></button>
+            </div>
+            <div class="bloc1">
+                <label for="choixA2">Oui</label>
+                <button id="choixA2"></button>
+            </div>
+            <div id="masque1"></div>
+        </div>
+        <div id="cate">
+            <p class="bloc2">Question n°2: Quelle est la capitale de la chine?</p>
+            <div class="bloc2">
+                <label for="choixB1">Pékin</label>
+                <button id="choixB1"></button>
+            </div>
+            <div class="bloc2">
+                <label for="choixB2">Shanghai</label>
+                <button id="choixB2"></button>
+            </div>
+            <div class="bloc2">
+                <label for="choixB3">Canton</label>
+                <button id="choixB3"></button>
+            </div>
+            <div class="bloc2">
+                <label for="choixB4">Hong Kong</label>
+                <button id="choixB4"></button>
+            </div>
+            <div id="masque2"></div>
+        </div>
+        <div class="ajuste">
+            <p class="bloc3">Question n°3: Quelle est la couleur du rubis?</p>
+            <div class="bloc3">
+                <label for="choixC1">Bleu</label>
+                <button id="choixC1"></button>
+            </div>
+            <div class="bloc3">
+                <label for="choixC2">Cyan</label>
+                <button id="choixC2"></button>
+            </div>
+            <div class="bloc3">
+                <label for="choixC3">Rouge</label>
+                <button id="choixC3"></button>
+            </div>
+            <div class="bloc3">
+                <label for="choixC4">Vert</label>
+                <button id="choixC4"></button>
+            </div>
+            <div id="masque3"></div>
+        </div>
+        <div class="ajuste">
+            <p class="bloc4">Question n°4: Quel est le plus long fleuve de France?</p>
+            <div class="bloc4">
+                <label for="choixD1">Le Rhin</label>
+                <button id="choixD1"></button>
+            </div>
+            <div class="bloc4">
+                <label for="choixD2">La Loire</label>
+                <button id="choixD2"></button>
+            </div>
+            <div class="bloc4">
+                <label for="choixD3">Le Rhône</label>
+                <button id="choixD3"></button>
+            </div>
+            <div class="bloc4">
+                <label for="choixD4">La Seine</label>
+                <button id="choixD4"></button>
+            </div>
+            <div id="masque4"></div>
+        </div>
+        <div class="ajuste">
+            <p class="bloc5">Question n°5: Quel roi était surnommé le "Roi Soleil" ?</p>
+            <div class="bloc5">
+                <label for="choixE1">Louis XIV</label>
+                <button id="choixE1"></button>
+            </div>
+            <div class="bloc5">
+                <label for="choixE2">Louis XIII</label>
+                <button id="choixE2"></button>
+            </div>
+            <div class="bloc5">
+                <label for="choixE3">Louis XV</label>
+                <button id="choixE3"></button>
+            </div>
+            <div class="bloc5">
+                <label for="choixE4">Philippe le Bel</label>
+                <button id="choixE4"></button>
+            </div>
+            <div id="masque5"></div>
+        </div>
+        <div class="ajuste">
+            <p class="bloc6">Question n°6: Quelle est la date de la signature de l'armistice de la Première Guerre mondiale?</p>
+            <div class="bloc6">
+                <label for="choixF1">11 novembre 1919</label>
+                <button id="choixF1"></button>
+            </div>
+            <div class="bloc6">
+                <label for="choixF2">8 mai 1919</label>
+                <button id="choixF2"></button>
+            </div>
+            <div class="bloc6">
+                <label for="choixF3">8 mai 1918</label>
+                <button id="choixF3"></button>
+            </div>
+            <div class="bloc6">
+                <label for="choixF4">11 novembre 1918</label>
+                <button id="choixF4"></button>
+            </div>
+            <div id="masque6"></div>
+        </div>
+        <div class="ajuste">
+            <p class="bloc7">Question n°7: Parmi les pays suivants, lequel n'est pas membre de l'Union européenne?</p>
+            <div class="bloc7">
+                <label for="choixG1">La Norvège</label>
+                <button id="choixG1"></button>
+            </div>
+            <div class="bloc7">
+                <label for="choixG2">La Suède</label>
+                <button id="choixG2"></button>
+            </div>
+            <div class="bloc7">
+                <label for="choixG3">Le Danemark</label>
+                <button id="choixG3"></button>
+            </div>
+            <div class="bloc7">
+                <label for="choixG4">La Finlande</label>
+                <button id="choixG4"></button>
+            </div>
+            <div id="masque7"></div>
+        </div>
+        <div class="ajuste">
+            <p class="bloc8">Question n°8: Quelle capitale actuelle a été physiquement coupée en deux de 1961 à 1989?</p>
+            <div class="bloc8">
+                <label for="choixH1">Belgrade</label>
+                <button id="choixH1"></button>
+            </div>
+            <div class="bloc8">
+                <label for="choixH2">Tirana</label>
+                <button id="choixH2"></button>
+            </div>
+            <div class="bloc8">
+                <label for="choixH3">Prague</label>
+                <button id="choixH3"></button>
+            </div>
+            <div class="bloc8">
+                <label for="choixH4">Berlin</label>
+                <button id="choixH4"></button>
+            </div>
+            <div id="masque8"></div>
+        </div>
+        <div class="ajuste">
+            <p class="bloc9">Question n°9: Parmi les marques de voiture suivantes, laquelle n'est pas allemade?</p>
+            <div class="bloc9">
+                <label for="choixI1">Ford</label>
+                <button id="choixI1"></button>
+            </div>
+            <div class="bloc9">
+                <label for="choixI2">Audi</label>
+                <button id="choixI2"></button>
+            </div>
+            <div class="bloc9">
+                <label for="choixI3">Volkswagen</label>
+                <button id="choixI3"></button>
+            </div>
+            <div class="bloc9">
+                <label for="choixI4">Mercedes</label>
+                <button id="choixI4"></button>
+            </div>
+            <div id="masque9"></div>
+        </div>
+        <div class="ajuste">
+            <p class="bloc10">Question n°10: En combien de temps la Terre tourne-t-elle autour du Soleil?</p>
+            <div class="bloc10">
+                <label for="choixJ1">456 jours et demi</label>
+                <button id="choixJ1"></button>
+            </div>
+            <div class="bloc10">
+                <label for="choixJ2">24h</label>
+                <button id="choixJ2"></button>
+            </div>
+            <div class="bloc10">
+                <label for="choixJ3">365 jours et un quart</label>
+                <button id="choixJ3"></button>
+            </div>
+            <div class="bloc10">
+                <label for="choixJ4">364 jours</label>
+                <button id="choixJ4"></button>
+            </div>
+            <div id="masque10"></div>
+        </div>
+    </div>
+    <div id="contenue2">
+        <p class="bloc11">Bonne réponse: <span id="bonne"></span></p>
+        <p class="bloc11">Mauvaise réponse: <span id="mauvaise"></span></p><br><br>
+        <p class="bloc11">Correction question n°1: oui</p>
+        <p class="bloc11">Correction question n°2: Pékin</p>
+        <p class="bloc11">Correction question n°3: Rouge</p>
+        <p class="bloc11">Correction question n°4: La Loire</p>
+        <p class="bloc11">Correction question n°5: Louis XIV</p>
+        <p class="bloc11">Correction question n°6: 11 novembre 1918</p>
+        <p class="bloc11">Correction question n°7: La Norvège</p>
+        <p class="bloc11">Correction question n°8: Berlin</p>
+        <p class="bloc11">Correction question n°9: Ford</p>
+        <p class="bloc11">Correction question n°10: 365 jourrs et un quart</p>
+        <button id="recommencer">Recommencer</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="methode.js"></script>
+</body>
+</html>
